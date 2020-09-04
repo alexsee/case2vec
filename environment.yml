@@ -1,0 +1,19 @@
+name: replearn
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - scikit-learn
+  - scipy
+  - jupyterlab
+  - ipywidgets
+  - pip:
+      - pm4py
+      - tqdm
+      - fastcluster
+      - gensim
+      - nltk
